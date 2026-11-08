@@ -81,8 +81,16 @@ app/src/main/
 ## Screenshot
 | Splash | Sign Up | Login | Register |
 |---|---|---|---|
-| ![](screenshots/splash.png) | ![](screenshots/signup.png) | ![](screenshots/login.png) | ![](screenshots/register.png) |
+| ![](<img width="1344" height="2992" alt="Screenshot_20261108_165706" src="https://github.com/user-attachments/assets/453d6dfa-f9e6-43f6-ad7a-26bed4b4dea6" />
+) | ![](<img width="1344" height="2992" alt="Screenshot_20261108_165739" src="https://github.com/user-attachments/assets/684cf3e6-0c60-4716-a788-ab807c2bcd0c" />
+) | ![](<img width="1344" height="2992" alt="Screenshot_20261108_165835" src="https://github.com/user-attachments/assets/c88b7278-db7f-48af-bd4a-9bc5cdb5a6a8" />
+) | ![](<img width="1344" height="2992" alt="Screenshot_20261108_165911" src="https://github.com/user-attachments/assets/856efd96-cdd3-4296-8983-b2666f6249d2" />
+) |
 
 | Home | Profile | Alamat | Konfirmasi |
 |---|---|---|---|
-| ![](screenshots/home.png) | ![](screenshots/profile.png) | ![](screenshots/alamat.png) | ![](screenshots/konfirmasi.png) |
+| ![](<img width="1344" height="2992" alt="Screenshot_20261108_165947" src="https://github.com/user-attachments/assets/0e008938-567b-491c-988c-dac8a4567e3f" />
+) | ![](<img width="1344" height="2992" alt="Screenshot_20261108_170018" src="https://github.com/user-attachments/assets/b0c37d3e-8826-4d15-95a4-6a06e0dff10b" />
+) | ![](<img width="1344" height="2992" alt="Screenshot_20261108_170212" src="https://github.com/user-attachments/assets/f6f8362d-e8eb-4280-98b2-b9ae12e2cbd3" />
+) | ![](<img width="1344" height="2992" alt="Screenshot_20261108_170259" src="https://github.com/user-attachments/assets/7a755228-2e1d-42ce-b500-a7871ccd33b8" />
+) |
