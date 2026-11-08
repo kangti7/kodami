@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="coffee_dark">#3E2723</color>
+    <color name="coffee_mid">#795548</color>
+    <color name="cream">#FFF3E0</color>
+    <color name="caramel">#D7A86E</color>
+    <color name="bg">#FFFFFF</color>
+    <color name="ok_green">#A5D6A7</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray_text">#7B6A8A</color>
+    <!-- warna semantik (berubah saat dark mode) -->
+    <color name="surface">#FFFFFF</color>
+    <color name="card">#FFF3E0</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="status_bar">#FFFFFF</color>
+    <!-- warna tetap (tidak berubah saat dark mode) -->
+    <color name="ink">#3E2723</color>
+    <!-- teks ungu -->
+    <color name="text_primary">#6A1B9A</color>
+    <color name="text_secondary">#8E24AA</color>
+    <color name="ic_kopi_bg">#3E2723</color>
+
+    <!-- Splash semantic colors -->
+    <color name="splash_title">#3E2723</color>
+    <color name="splash_tagline">#795548</color>
+    <color name="theme_btn_bg">#183E2723</color>
+    <color name="theme_btn_stroke">#333E2723</color>
+    <color name="theme_btn_tint">#3E2723</color>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    android:padding="28dp">
+
+    <ImageView
+        android:id="@+id/btnTheme"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_gravity="end"
+        android:background="@drawable/bg_theme_toggle_splash"
+        android:contentDescription="Ganti tema"
+        android:padding="10dp"
+        app:tint="@color/theme_btn_tint"
+        android:src="@drawable/ic_dark_mode" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:contentDescription="Logo Kodami"
+            android:src="@drawable/ic_logo_kopi" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="Kodami"
+            android:textColor="@color/splash_title"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvTagline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Kopi dan ngemil"
+            android:textColor="@color/splash_tagline"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="by KinGiast"
+            android:textColor="@color/caramel"
+            android:textSize="13sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_gravity="center_horizontal"
+        android:minWidth="200dp"
+        android:paddingStart="36dp"
+        android:paddingEnd="36dp"
+        android:text="Start now"
+        android:textColor="@color/ink"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/caramel"
+        app:cornerRadius="28dp" />
+</LinearLayout>

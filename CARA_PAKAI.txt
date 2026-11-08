@@ -1,0 +1,19 @@
+1. Android Studio > New Project > "Empty Views Activity"
+   Name: Kopi dan Nyemil | Package: com.example.kopidannyemil | Language: Kotlin | Min SDK: API 24
+2. Hapus MainActivity.kt, activity_main.xml, dan hapus <activity> MainActivity di manifest.
+3. Salin isi folder app/src/main dari zip ini ke project (timpa AndroidManifest.xml, colors.xml, themes.xml).
+   Jangan hapus folder mipmap (ikon).
+4. Pastikan nama tema di manifest = nama style di themes.xml (Theme.KopiDanNyemil).
+5. Sync Gradle, lalu Run.
+6. Ambil screenshot tiap layar, simpan di folder screenshots/ lalu push ke GitHub bersama README.md.
+
+--- FOTO MENU (opsional) ---
+Taruh foto di app/src/main/res/drawable dengan nama PERSIS (huruf kecil, tanpa spasi), format jpg/png/webp:
+  menu_kopi_susu, menu_cappuccino, menu_matcha_latte, menu_choco_hazelnut,
+  menu_roti_bakar, menu_kentang_goreng, menu_pisang_goreng, menu_donat
+Contoh: menu_kopi_susu.jpg
+Disarankan kotak ~500x500 px dan di bawah 200 KB. Menu yang fotonya belum ada tetap tampil dengan emoji.
+
+--- IKON APLIKASI ---
+Ikon cangkir kopi otomatis terpasang lewat AndroidManifest.xml (nama: ic_launcher_kopi).
+Jika ikon masih robot Android: uninstall aplikasi dari emulator lalu Run lagi.
