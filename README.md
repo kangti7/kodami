@@ -74,18 +74,14 @@ app/src/main/
 > Catatan: status pesanan di halaman Riwayat berjalan otomatis sebagai **simulasi** (sekitar 70 detik dari "Pesanan dibuat" sampai "Pesanan diterima").
 
 ## Screenshot
-| Splash (Light) | Splash (Dark) | Sign Up (Light) | Sign Up (Dark) |
-|---|---|---|---|
-| <img width="180" alt="Splash screen in light mode" src="https://github.com/user-attachments/assets/453d6dfa-f9e6-43f6-ad7a-26bed4b4dea6" /> | <img width="180" alt="Splash screen in dark mode" src="https://github.com/user-attachments/assets/684cf3e6-0c60-4716-a788-ab807c2bcd0c" /> | <img width="180" alt="Sign up screen in light mode" src="https://github.com/user-attachments/assets/c88b7278-db7f-48af-bd4a-9bc5cdb5a6a8" /> | <img width="180" alt="Sign up screen in dark mode" src="https://github.com/user-attachments/assets/856efd96-cdd3-4296-8983-b2666f6249d2" /> |
+Setiap layar tersedia dalam **Mode Terang** dan **Mode Gelap**.
 
-| Register | Login | Home | Home (Dark Mode) |
-|---|---|---|---|
-| ![](screenshots/register.png) | ![](screenshots/login.png) | ![](screenshots/home.png) | ![](screenshots/home-dark.png) |
-
-| Keranjang | Alamat | Konfirmasi | Riwayat |
-|---|---|---|---|
-| ![](screenshots/keranjang.png) | ![](screenshots/alamat.png) | ![](screenshots/konfirmasi.png) | ![](screenshots/riwayat.png) |
-
-| Profile | Notifikasi |
-|---|---|
-| ![](screenshots/profile.png) | ![](screenshots/notifikasi.png) |
+| Layar | Mode Terang | Mode Gelap |
+|---|---|---|
+| Login | <img src="screenshots/login-light.png" width="220"> | <img src="screenshots/login-dark.png" width="220"> |
+| Register | <img src="screenshots/register.png" width="220"> | <img src="screenshots/register-dark.png" width="220"> |
+| Home | <img src="screenshots/home-light.png" width="220"> | <img src="screenshots/home-dark.png" width="220"> |
+| Alamat & Pembayaran | <img src="screenshots/alamat-light.png" width="220"> | <img src="screenshots/alamat-dark.png" width="220"> |
+| Konfirmasi Pesanan | <img src="screenshots/konfirmasi-light.png" width="220"> | <img src="screenshots/konfirmasi-dark.png" width="220"> |
+| Riwayat Pesanan | <img src="screenshots/riwayat-light.png" width="220"> | <img src="screenshots/riwayat-dark.png" width="220"> |
+| Profile | <img src="screenshots/profile-light.png" width="220"> | <img src="screenshots/profile-dark.png" width="220"> |
