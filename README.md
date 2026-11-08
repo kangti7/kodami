@@ -2,9 +2,10 @@
 
 Aplikasi mobile Android sederhana untuk memesan kopi dan camilan, dibuat untuk **Ujian Tengah Semester – Pemrograman Mobile**.
 
-**Nama:** Muhamad Giast Al-Munawar
+**Nama:** Muhamad Giast Al-Munawar (KinGiast)
 **NIM:** 1247050129 | **Kelas:** B
 **Program Studi:** Teknik Informatika, UIN Sunan Gunung Djati Bandung
+**GitHub:** [kangti7/kodami](https://github.com/kangti7/kodami)
 
 ## Deskripsi
 Kopi dan Nyemil adalah aplikasi pemesanan makanan & minuman. Pengguna dapat mendaftar, login, memilih menu, mengisi alamat pengiriman, dan menerima konfirmasi pesanan. Aplikasi ini tidak memakai database; semua data berupa data statis (dummy) yang disimpan di memori.
@@ -44,45 +45,47 @@ Home ⇄ Keranjang ⇄ Riwayat ⇄ Profile (lewat bottom navigation)
 - Bahasa: Kotlin
 - UI: XML Layout + Material Components (Material 3)
 - IDE: Android Studio
-- Min SDK: 24
+- Min SDK: 27 (Android 8.1), Target SDK: 37
 - Data: dummy data (object `AppData`), riwayat pesanan disimpan di SharedPreferences (JSON), tanpa database
 
 ## Struktur Proyek
 ```
 app/src/main/
 ├── java/com/example/kopidannyemil/
-│   ├── SplashActivity.kt
-│   ├── SignUpActivity.kt
-│   ├── RegisterActivity.kt
-│   ├── LoginActivity.kt
-│   ├── HomeActivity.kt
-│   ├── ProfileActivity.kt
-│   ├── AlamatActivity.kt
-│   ├── KonfirmasiActivity.kt
-│   ├── KeranjangActivity.kt
-│   ├── RiwayatActivity.kt
-│   ├── AppData.kt
-│   ├── OrderStore.kt
-│   ├── ThemeHelper.kt
-│   ├── Insets.kt
-│   ├── Notif.kt
-│   └── Nav.kt
-└── res/ (layout, drawable, values)
+│   ├── SplashActivity.kt        ├── KeranjangActivity.kt
+│   ├── SignUpActivity.kt        ├── RiwayatActivity.kt
+│   ├── RegisterActivity.kt      ├── AppData.kt (data menu & akun)
+│   ├── LoginActivity.kt         ├── OrderStore.kt (riwayat pesanan)
+│   ├── HomeActivity.kt          ├── ThemeHelper.kt (dark/light mode)
+│   ├── ProfileActivity.kt       ├── Notif.kt (notifikasi dalam aplikasi)
+│   ├── AlamatActivity.kt        ├── Nav.kt, Insets.kt, UiHelpers.kt
+│   └── KonfirmasiActivity.kt    └── PasswordToggle.kt
+└── res/ (layout, drawable, drawable-night, values, values-night, mipmap)
 ```
 
 ## Cara Menjalankan
-1. Clone repository: `git clone <URL-REPOSITORY-KAMU>`
-2. Buka folder proyek dengan **Android Studio**
+1. Clone repository: `git clone https://github.com/kangti7/kodami.git`
+2. Buka folder `kodami` dengan **Android Studio**
 3. Tunggu proses *Gradle Sync* selesai
-4. Pilih emulator atau perangkat Android
-5. Klik **Run ▶**
+4. Pilih emulator atau perangkat Android (minimal Android 8.1 / API 27)
+5. Pastikan konfigurasi run bernama **app**, lalu klik **Run ▶**
 6. Login memakai akun demo `admin` / `admin`, atau Register akun baru
 
-## Screenshot
-| Splash | Sign Up | Login | Register |
-|---|---|---|---|
-| ![](screenshots/splash.png) | ![](screenshots/signup.png) | ![](screenshots/login.png) | ![](screenshots/register.png) |
+> Catatan: status pesanan di halaman Riwayat berjalan otomatis sebagai **simulasi** (sekitar 70 detik dari "Pesanan dibuat" sampai "Pesanan diterima").
 
-| Home | Profile | Alamat | Konfirmasi |
+## Screenshot
+| Splash (Light) | Splash (Dark) | Sign Up (Light) | Sign Up (Dark) |
 |---|---|---|---|
-| ![](screenshots/home.png) | ![](screenshots/profile.png) | ![](screenshots/alamat.png) | ![](screenshots/konfirmasi.png) |
+| <img width="180" alt="Splash screen in light mode" src="https://github.com/user-attachments/assets/453d6dfa-f9e6-43f6-ad7a-26bed4b4dea6" /> | <img width="180" alt="Splash screen in dark mode" src="https://github.com/user-attachments/assets/684cf3e6-0c60-4716-a788-ab807c2bcd0c" /> | <img width="180" alt="Sign up screen in light mode" src="https://github.com/user-attachments/assets/c88b7278-db7f-48af-bd4a-9bc5cdb5a6a8" /> | <img width="180" alt="Sign up screen in dark mode" src="https://github.com/user-attachments/assets/856efd96-cdd3-4296-8983-b2666f6249d2" /> |
+
+| Register | Login | Home | Home (Dark Mode) |
+|---|---|---|---|
+| ![](screenshots/register.png) | ![](screenshots/login.png) | ![](screenshots/home.png) | ![](screenshots/home-dark.png) |
+
+| Keranjang | Alamat | Konfirmasi | Riwayat |
+|---|---|---|---|
+| ![](screenshots/keranjang.png) | ![](screenshots/alamat.png) | ![](screenshots/konfirmasi.png) | ![](screenshots/riwayat.png) |
+
+| Profile | Notifikasi |
+|---|---|
+| ![](screenshots/profile.png) | ![](screenshots/notifikasi.png) |
