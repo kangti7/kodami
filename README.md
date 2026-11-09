@@ -78,6 +78,9 @@ Setiap layar tersedia dalam **Mode Terang** dan **Mode Gelap**.
 
 | Layar | Mode Terang | Mode Gelap |
 |---|---|---|
+| splash | <img width="1344" height="2992" alt="Screenshot_20261109_074813" src="https://github.com/user-attachments/assets/ddf28aeb-4797-4a6c-86c3-168f1715e88d" /> | <img width="1344" height="2992" alt="Screenshot_20261109_074939" src="https://github.com/user-attachments/assets/972e695e-22ed-4393-aa5a-97c2b060a64f" /> |
+
+
 | Login | <img src="screenshots/login-light.png" width="220"> | <img src="screenshots/login-dark.png" width="220"> |
 | Register | <img src="screenshots/register.png" width="220"> | <img src="screenshots/register-dark.png" width="220"> |
 | Home | <img src="screenshots/home-light.png" width="220"> | <img src="screenshots/home-dark.png" width="220"> |
